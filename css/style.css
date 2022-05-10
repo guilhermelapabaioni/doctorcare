@@ -48,6 +48,11 @@ section {
   padding-inline: 2.8rem;
 }
 
+img{
+  width: 100%;
+  display: block;
+}
+
 section header h2 {
   font-size: 3.5rem;
   line-height: 4rem;
@@ -130,8 +135,6 @@ section .content p {
 }
 
 #home img {
-  width: 26.4rem;
-  display: block;
   margin-inline: auto;
   object-position: 0 2rem;
 }

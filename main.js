@@ -36,6 +36,7 @@ function backToTop() {
 function activeMenuAtCurrentSection(section) {
   //Declarando a TargetLine (Linha Imaginário que percorre junto ao ScrollY)
   const targetLine = scrollY + innerHeight / 4
+  
   //Declarando números da sessão.
   const sectionTop = section.offsetTop
   const sectionHeight = section.offsetHeight
