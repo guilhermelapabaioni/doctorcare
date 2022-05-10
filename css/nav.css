@@ -1,0 +1,51 @@
+/* ===NAVIGATION=== */
+nav {
+  display: flex;
+  position: fixed;
+  height: var(--nav-height);
+  z-index: 1;
+  width: 100vw;
+}
+
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.scroll {
+  background: var(--primary-color);
+  transition: background-color 400ms linear;
+}
+
+nav .logo {
+  text-decoration: none;
+  font-size: 3rem;
+  color: var(--nav-height);
+}
+
+nav .logo b {
+  color: var(--primary-color);
+}
+
+nav.scroll svg:nth-child(1) path {
+  stroke: white;
+  transition: stroke 300ms linear;
+}
+
+nav.scroll .logo,
+nav.scroll b {
+  color: white;
+  transition: color 300ms linear;
+}
+
+.open-menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+nav .menu,
+nav .close-menu{
+  position: fixed;
+}
